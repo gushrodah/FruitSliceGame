@@ -1,0 +1,116 @@
+/*ids*/
+#score{
+    height:75px;
+    width:100px;
+    right:100px;
+    position: absolute;
+    background-color: greenyellow;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#scoreValue{
+    
+}
+
+#lives{
+    height:75px;
+    width:150px;
+    left:100px;
+    position: absolute;
+    background-color: greenyellow;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#correct{
+    height:75px;
+    width:100px;
+    position: absolute;
+    background-color: greenyellow;
+    border-radius: 5%;
+    display: none;
+}
+
+#wrong{
+    height:75px;
+    width:100px;
+    position: absolute;
+    background-color: red;
+    border-radius: 5%;
+    display: none;
+}
+
+#playspace{
+    height:70%;
+    width:100%;
+    margin:100px 0 10px 0;
+    background-color: white;
+    border-radius: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom{
+    height:100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#startButton{
+    height:50px;
+    width:100px;
+    position: absolute;
+    left: 45%;
+}
+
+#timer{
+    height:50px;
+    width:200px;
+    background-color: greenyellow;
+    position: absolute;
+    right: 100px;
+    border-radius: 2%;
+    text-align: center;
+}
+
+#endGameMsg{
+    height: 200px;
+    width: 50%;
+    text-align :center;
+    font-size: 2.5em;
+    position: absolute;
+    background-color: orange;
+    top:100px;
+    left: 25%;
+    display:none;
+}
+
+#fruit1{
+    display:none;
+}
+
+/*classes*/
+.container{
+    height:800px;
+    width: 70vw;
+    margin:auto;
+    padding: 10px 100px 10px 100px;
+    justify-content: center;
+    background-color: skyblue;
+    border-radius: 1%;
+    position: relative;
+}
+
+.lives{
+    height:20px;
+    width:20px;
+    margin: 2px;
+}
+
+.fruit {
+    height:100px;
+    width:100px;
+    
+    position: absolute;
+}

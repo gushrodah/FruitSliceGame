@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Math Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="styling.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="lives">
+                <p><span id="livesValue"></span></p>
+            </div>
+            <div id="score">
+                <p>Score : <span id="scoreValue">---</span></p>
+            </div>
+            <div id="correct"> Correct </div>
+            <div id="wrong"> Try Again </div>
+            <div id="playspace">
+                <img id="fruit1" class="fruit">
+            </div>
+            <div id="bottom">
+                <button id="startButton">Start Game</button>
+            </div>
+            <div id="endGameMsg">
+                <div>Game Over</div>
+                <div>Your score is <span id="finalScore">0</span></div>
+            </div>
+        </div>
+        <script src="jquery.js"></script>
+    </body>
+</html>
